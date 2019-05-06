@@ -17,10 +17,14 @@ SideCarBehaviourScript adds super powers to the Microsoft Intune Management Exte
 In order to have the script correctly identify scripts that you want either Reloaded at logon, or repetitively.
 You have to output two very specific lines as the first output of your scripts, as it will be written to the registry by the Intune Management Extensions - The SideCarBehaviourScript looks for these lines in the registry.
 
--Example for a "ATSTARTUP" script:
+- Example for a "ATSTARTUP" script:
+```
 Write-Output "<scriptfile name>"
 Write-Output "##SideCarBehaviour##ATSTARTUP"  
+```
   
--Example for a "RELOAD" script:
+- Example for a "RELOAD" script:
+```
 Write-Output "<scriptfile name>"
 Write-Output "##SideCarBehaviour##RELOAD" 
+```
