@@ -9,9 +9,8 @@ SideCarBehaviourScript adds super powers to the Microsoft Intune Management Exte
 
 ## The script can be installed in the following ways:
 - Manually (copying files, and running the configure-scheduledtasks.ps1 file (don't move the files afterwards!))
-- Through SCCM with App Deployent toolkit (example in repo)
-- Through Intune as an MSI
-- Through Intune as a Win32executable
+- Through SCCM with the PowerShell App Deployment Toolkit (example in repo)
+- Through Intune as an MSI (wrapping the App Deployment Toolkit with the exemsi.com wrapper)
 
 ## Specifying behaviour for specific scripts.
 In order to have the script correctly identify scripts that you want either Reloaded at logon, or repetitively.
