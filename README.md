@@ -2,7 +2,7 @@
 SideCarBehaviourScript adds super powers to the Microsoft Intune Management Extension
 
 **Disclaimer: This is a working PoC, but not tested extensively - use at own risk!**
-The BLOG post exmplaining this solution can be found here: https://www.iphase.dk/force-reload-intune-powershell-scripts/
+The BLOG post explaining this solution can be found here: https://www.iphase.dk/force-reload-intune-powershell-scripts/
 
 ## This script adds the following funtionality to the Intune Management Extensions:
 - Force Reloading (specific) PowerShell scripts every 90 minutes.
